@@ -1,0 +1,7 @@
+Optimal Combination Statchecker
+- Check combinations of people and W-L
+- Can expand history to see all games - maybe give a link but league match history is down - color red for losses and green for wins
+- Can choose roles for people(how bout multiple role selections?)
+- Can choose 2+ people(implement 2 for now, but code so 3+ can be added)
+- Server-side database for match history?
+- Start with me n rayat for testing
