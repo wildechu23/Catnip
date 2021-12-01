@@ -5,8 +5,13 @@ import pandas as pd
 
 from tinydb import TinyDB, Query
 
+f = open("api.txt", "r")
+key = f.read()[:-1]
+f.close()
+# print(key)
+
 name = 'w1ld23'
-lol = LolWatcher('RGAPI-38e12277-90ca-4f48-8e37-fe8de1d4f266')
+lol = LolWatcher("%s" % (key))
 region = 'na1'
 
 db = TinyDB(name+'.json')
